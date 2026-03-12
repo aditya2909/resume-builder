@@ -7,9 +7,9 @@ import Loader from "../components/Loader";
 
 const Layout = () => {
   const { user, loading } = useSelector((state) => state.auth);
-  if (loading) {
-    return <Loader />;
-  }
+  //if (loading) {
+    //return <Loader />;
+  //}
   return (
     <div>
       {user ? (
