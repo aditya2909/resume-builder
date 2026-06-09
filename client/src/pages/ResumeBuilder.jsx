@@ -252,7 +252,7 @@ const ResumeBuilder = () => {
                 )}
                 {activeSection.id === "projects" && (
                   <ProjectForm
-                    data={resumeData.projects}
+                    data={resumeData.project}
                     onChange={(data) =>
                       setResumeData((prev) => ({
                         ...prev,
